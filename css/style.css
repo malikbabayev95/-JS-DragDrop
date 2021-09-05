@@ -1,0 +1,28 @@
+.dragArea, .dropArea {
+    padding: 40px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 200px;
+}
+.dragArea .number, .dropArea .number {
+    width: 15%;
+    height: 100px;
+    border: 1px solid #8a8080;
+    text-align: center;
+    line-height: 100px;
+    color: #8a8080;
+    font-size: 3em;
+    margin-bottom: 20px;
+    cursor: move;
+}
+.dragArea .title {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    color:#8a8080;
+    font-weight: bold;
+}
